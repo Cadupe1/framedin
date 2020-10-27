@@ -1,0 +1,119 @@
+/* HTML Element TAGS */
+
+body {
+    background-color: #0073b1;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+h1 {
+    line-height: 2;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+/* Form */
+
+.sign-up {
+    position: relative;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 3% 30% 1% 30%;
+    background-color: lightgrey;
+}
+
+.enterin {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-tags {
+    margin-bottom: 2px;
+}
+
+.agreement {
+    font-size: medium;
+}
+
+.logo {
+    background-color: #fff;
+    color: #0073b1;
+    background-size: auto;
+}
+
+.span-policy {
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+
+/* Buttons Section */
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.continue-f {
+    position: relative;
+    right: 25%;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.hline {
+    overflow: hidden;
+    text-align: center;
+}
+
+.hline:before,
+.hline:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.hline:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.hline:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.final {
+    text-align: center;
+}
+
+.sign-in {
+    color: #0073b1;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 30px;
+    color: #fff;
+    left: 42%;
+}
